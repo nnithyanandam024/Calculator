@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(227, 227, 227);
+   display: flex;
+   justify-content: center;
+   border: 2px solid;
+   border-radius: 10px;
+   padding: 20px 0;
+   margin: 40px 250px;
+ 
+ }
+ .equal {
+   background-color: orangered;
+   border-radius: 5px;
+ }
+ .Operator {
+   background-color: rgb(192, 173, 173);
+   border-radius: 5px;
+ }
+ .grid {
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   gap: 5px;
+   text-align: center;
+ }
+ #display {
+   background-color: white;
+   padding: 10px;
+   text-align: right;
+   padding-right: 20px;
+   border: 2px solid;
+   border-radius: 5px;
+   margin: 10px 0;
+ }
